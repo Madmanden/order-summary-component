@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary component component solution
+# Frontend Mentor - Order summary component solution
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-built-with-sass-and-flexbox-S4883RkKU](https://www.frontendmentor.io/solutions/3-column-preview-card-built-with-sass-and-flexbox-S4883RkKU)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-with-sass-and-flexbox-0j6di7Gy0](https://www.frontendmentor.io/solutions/order-summary-component-with-sass-and-flexbox-0j6di7Gy0)
 - Live Site URL: [https://madmanden.github.io/order-summary-component/](https://madmanden.github.io/order-summary-component/)
 
 ## My process
