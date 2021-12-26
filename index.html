@@ -27,23 +27,27 @@
 
 <body>
   <div class="container">
+    <div class="card">
 
-    <img class="hero-img child" src="images/illustration-hero.svg"
-      alt="illustration of a dancing woman with headphones">
-    <h1 class="order-summary child">Order Summary</h1>
-    <p class="order-summary-text child">
-      You can now listen to millions of songs, audiobooks, and podcasts on any device
-      anywhere you like!</p>
+      <img class="hero-img" src="images/illustration-hero.svg" alt="illustration of a dancing woman with headphones">
+      <div class="card-wrapper"></div>
+      <h1 class="order-summary">Order Summary</h1>
+      <p class="order-summary-text">You can now listen to millions of songs, audiobooks, and podcasts on any device
+        anywhere you like!</p>
 
-    <div class="plan child">
-      <p>Annual Plan</p>
-      <p>$59.99/year</p>
-      <p><a href="#">Change</a></p>
+      <div class="plan">
+        <img src="images/icon-music.svg" alt="music note icon" class="plan-icon">
+        <div class="annual">
+          <p class="annual-plan">Annual Plan</p>
+          <p class="annual-amount">$59.99/year</p>
+        </div>
+        <p class="change-plan"><a href="#">Change</a></p>
+      </div>
+
+      <button class="btn">Proceed to Payment</button>
+      <p class="cancel">Cancel Order </p>
     </div>
-
-    <button class="btn child">Proceed to Payment</button>
-    <p class="cancel child">Cancel Order </p>
-
+  </div>
   </div>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

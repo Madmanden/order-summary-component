@@ -1,5 +1,6 @@
 $pale-blue: hsl(225, 100%, 94%);
 $bright-blue: hsl(245, 75%, 52%);
+$button-hover: #766CF1;
 $very-pale-blue: hsl(225, 100%, 98%);
 $desaturated-blue: hsl(224, 23%, 55%);
 $dark-blue: hsl(223, 47%, 23%);
@@ -14,27 +15,136 @@ body {
   font-size: 16px;
   background-color: #f2f2f2;
   height: 100vh;
-  //width: 96vw;
+  //width: 100vw;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
 }
 
 .container {
+  background-color: $pale-blue;
+  margin: auto;
+  height: 900px;
+  width: 1440px;
+  display: flex;
+  //align-items: center;
+  //justify-content: center;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.card {
   width: 450px;
   min-height: 697px;
-  background-color: $pale-blue;
-  border-radius: 16px;
-  margin: 3rem auto;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
 }
 
 .hero-img {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   //max-height: 220px;
   //max-width: 450px;
 }
 
 .btn {
+  font-weight: 900;
+  font-size: 15px;
+
+  color: #fff;
+  background-color: $bright-blue;
+  margin: 0;
+  margin-top: 32px;
+  padding: 13px;
+  border-radius: 11px;
+  border: 2px transparent solid;
+  width: 354px;
+  border-radius: 11px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.btn:hover {
   cursor: pointer;
+  background-color: $button-hover;
+}
+
+.order-summary {
+  font: {
+    weight: 900;
+    size: 28px;
+  }
+
+  line-height: 37px;
+  margin-top: 45px;
+  margin-bottom: 17px;
+}
+
+.order-summary-text {
+
+  font-weight: 500px;
+  line-height: 26px;
+  color: $desaturated-blue;
+  margin-top: 0;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.cancel {
+  font: {
+    size: 15px;
+    weight: 900;
+  }
+
+  color: $desaturated-blue;
+  margin-top: 32px;
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+.annual {
+  width: 150px;
+}
+
+.annual-plan {
+  font-weight: 900;
+  color: $dark-blue;
+  margin: 6px 0;
+}
+
+.annual-amount {
+  font-weight: 500;
+  color: $desaturated-blue;
+  margin: 0;
+}
+
+
+
+.change-plan {
+  font-size: 14px;
+  font-weight: 700px;
+  color: $bright-blue;
+}
+
+.card-wrapper {
+  max-width: 354px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $very-pale-blue;
+  width: 354px;
+  padding: 24px;
+  border-radius: 11px;
+  max-height: 98px;
+  margin-top: 8px;
 }
