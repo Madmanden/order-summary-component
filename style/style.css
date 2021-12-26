@@ -4,36 +4,31 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  background-color: #f2f2f2;
-  height: 100vh;
-  font-family: 'Red Hat Display', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
 }
 
 .container {
-  background-color: #e0e8ff;
-  margin: auto;
-  height: 900px;
-  width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 900px;
+  width: 1440px;
+  margin: auto;
+  background-color: #e0e8ff;
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   border-radius: 3px;
 }
 
 .card {
-  width: 450px;
-  min-height: 697px;
-  background-color: #fff;
-  border-radius: 20px;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,9 +39,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 697px;
+  width: 450px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 20px;
   -webkit-box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
           box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
-  border-radius: 20px;
 }
 
 .hero-img {
@@ -54,79 +53,24 @@ body {
   border-top-right-radius: 20px;
 }
 
-.btn {
-  font-weight: 900;
-  font-size: 15px;
-  color: #fff;
-  background-color: #3829e0;
-  margin: 0;
-  margin-top: 32px;
-  padding: 13px;
-  border-radius: 11px;
-  border: 2px transparent solid;
-  width: 354px;
-  border-radius: 11px;
-  -webkit-box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-          box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-}
-
-.btn:hover {
-  cursor: pointer;
-  background-color: #766CF1;
-}
-
-.order-summary {
-  font-weight: 900;
-  font-size: 28px;
-  line-height: 37px;
-  margin-top: 45px;
-  margin-bottom: 17px;
-}
-
-.order-summary-text {
-  font-weight: 500px;
-  line-height: 26px;
-  color: #7280a7;
-  margin-top: 0;
-  padding: 0 50px;
-  text-align: center;
-}
-
-.cancel {
-  font-size: 15px;
-  font-weight: 900;
-  color: #7280a7;
-  margin-top: 32px;
-}
-
-.cancel:hover {
-  cursor: pointer;
-}
-
-.annual {
-  width: 150px;
-}
-
-.annual-plan {
-  font-weight: 900;
-  color: #1f2f56;
-  margin: 6px 0;
-}
-
-.annual-amount {
-  font-weight: 500;
-  color: #7280a7;
-  margin: 0;
-}
-
-.change-plan {
-  font-size: 14px;
-  font-weight: 700px;
-  color: #3829e0;
-}
-
 .card-wrapper {
   max-width: 354px;
+}
+
+.hero {
+  margin-top: 45px;
+  margin-bottom: 17px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.hero-text {
+  margin-top: 0;
+  padding: 0 50px;
+  color: #7280a7;
+  text-align: center;
+  font-weight: 500px;
+  line-height: 26px;
 }
 
 .plan {
@@ -139,11 +83,64 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #f5f7ff;
-  width: 354px;
-  padding: 24px;
-  border-radius: 11px;
   max-height: 98px;
+  width: 354px;
   margin-top: 8px;
+  padding: 24px;
+  background-color: #f5f7ff;
+  border-radius: 11px;
+}
+
+.annual-wrapper {
+  width: 150px;
+}
+
+.annual-plan {
+  margin: 6px 0;
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.annual-amount {
+  margin: 0;
+  color: #7280a7;
+  font-weight: 500;
+}
+
+.annual-change-plan {
+  color: #3829e0;
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+.btn {
+  width: 354px;
+  margin: 0;
+  margin-top: 32px;
+  padding: 13px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #3829e0;
+  border-radius: 11px;
+  border: 2px transparent solid;
+  -webkit-box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+          box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #766CF1;
+}
+
+.cancel {
+  margin-top: 32px;
+  color: #7280a7;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.cancel:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
