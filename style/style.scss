@@ -85,6 +85,7 @@ body {
   padding: 24px;
   background-color: $very-pale-blue;
   border-radius: 11px;
+
 }
 
 .annual-wrapper {
@@ -92,7 +93,8 @@ body {
 }
 
 .annual-plan {
-  margin: 6px 0;
+  margin-top: 0;
+  margin-bottom: 6px;
   color: $dark-blue;
   font-weight: 900;
 }

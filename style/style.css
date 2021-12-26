@@ -107,7 +107,8 @@ body {
 }
 
 .annual-plan {
-  margin: 6px 0;
+  margin-top: 0;
+  margin-bottom: 6px;
   color: #1f2f56;
   font-weight: 900;
 }
