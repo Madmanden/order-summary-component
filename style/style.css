@@ -80,7 +80,7 @@ body {
   margin-top: 0;
   color: #7280a7;
   text-align: center;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 26px;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .annual-wrapper {
-  width: 150px;
+  width: 165px;
 }
 
 .annual-plan {
@@ -119,9 +119,9 @@ body {
 }
 
 .annual-change-plan {
-  color: #3829e0;
+  color: #382AE1;
   font-size: 14px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .annual-change-plan a:hover {
@@ -134,7 +134,7 @@ body {
   margin-top: 32px;
   padding: 13px;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 900;
   background-color: #3829e0;
   border-radius: 11px;
