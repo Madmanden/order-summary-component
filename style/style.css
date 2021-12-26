@@ -161,27 +161,53 @@ body {
 
 @media screen and (max-width: 465px) {
   .container {
+    height: auto;
     width: 375px;
+    background-image: url("../images/pattern-background-mobile.svg");
   }
-  .card,
-  .plan,
-  .btn {
+  .card {
     max-width: 327px;
-    border: 2px solid red;
+    min-height: 407px;
+    margin: 71px auto;
   }
   .hero-img {
-    max-width: 328px;
+    width: 327px;
+    height: 160px;
+  }
+  .card-wrapper,
+  .plan,
+  .btn {
+    max-width: 279px;
   }
   .hero {
     font-size: 22px;
+    margin-top: 32px;
+    margin-bottom: 16px;
   }
   .hero-text {
     padding: 0;
+    margin-bottom: 0;
     font-size: 15px;
+    width: 263px;
+  }
+  .plan {
+    padding: 16px;
+    margin: 0;
+    margin-top: 24px;
+  }
+  .annual-wrapper {
+    padding-left: 20px;
   }
   .annual-plan,
   .annual-amount {
     font-size: 14px;
+  }
+  .btn {
+    margin-top: 24px;
+  }
+  .cancel {
+    margin-top: 24px;
+    margin-bottom: 32px;
   }
 }
 /*# sourceMappingURL=style.css.map */
