@@ -113,6 +113,10 @@ body {
   font-weight: 700px;
 }
 
+.annual-change-plan a:hover {
+  color: #766CF1;
+}
+
 .btn {
   width: 354px;
   margin: 0;
